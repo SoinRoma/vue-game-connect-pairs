@@ -2,13 +2,16 @@
   "name": "vue-connect-pairs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://soinroma.github.io/vue-game-connect-pairs/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
