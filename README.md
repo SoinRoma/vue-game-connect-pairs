@@ -1,24 +1,29 @@
-# vue-connect-pairs
+<h1 align="center">Vue - Connect Pairs</h1>
 
-## Project setup
-```
-npm install
-```
+## Описание
 
-### Compiles and hot-reloads for development
+Игра соедини парные клетки, написанная на Vue.js
+
+### Используемые технологии
+
+![Vue.js](https://img.shields.io/badge/-Vue.js-black?style=flat-square&logo=vue.js)
+
+### Запуск проекта
+
+1. Запуска в режиме разработки (открытие сервера и страницы в браузере)
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+2. Запуск сборки
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+3. Деплой на Github Pages
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run deploy
+```
